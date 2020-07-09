@@ -100,14 +100,18 @@ def encode(input_: str) -> List[int]:
     after_len_selection = after_replace[ :MAX_LEN]
 
     after_encode = le.transform(after_len_selection)
+    
+    after_int = [int(i) for i in after_encode]
+    
+    after_padding = after_int + max(0, MAX_LEN - len(after_int) )*[0]
 
-    return( [int(i) for i in after_encode] )
+    return( after_padding )
 
 
 # In[11]:
 
 
-encode(["校園裝冷氣蘇揆搶功? 侯友宜:孩子們受惠最重要"])
+encode("校園裝冷氣蘇揆搶功? 侯友宜:孩子們受惠最重要")
 
 
 # In[12]:
