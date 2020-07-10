@@ -19,7 +19,7 @@ DEVICE = "cuda:0"
 # In[2]:
 
 
-DEVICE = "cpu"
+DEVICE = "cuda:0"
 
 from data_preprocessing import encode
 
