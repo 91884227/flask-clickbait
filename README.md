@@ -2,6 +2,17 @@
 
 ###### tags: `README` 
 
+# flask_clickbait.py
+執行以下程式
+```
+python flask_clickbait.py
+```
+即可在本地端 `http://127.0.0.1:5000/` 執行
+使用方式: e.g. 
+
+`http://127.0.0.1:5000/title?title=這是充滿炭14的實驗室`
+
+
 # data_preprocessing.py
 使用方式:
 ```python
