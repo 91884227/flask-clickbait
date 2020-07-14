@@ -25,7 +25,7 @@ from data_preprocessing import encode
 
 from module.network_structure import LSTM_model, LSTM_model_BI, GRU_model, GRU_model_BI
 
-model = torch.load("ID_0034_0.12.ptc")
+model = torch.load("model_par.ptc")
 
 model.to(DEVICE)
 

@@ -37,11 +37,11 @@ GPU_MEMORY_FRACTION = 0.7
 # In[5]:
 
 
-print("set GPU stat...")
-cfg = tf.ConfigProto()
-cfg.gpu_options.per_process_gpu_memory_fraction =  GPU_MEMORY_FRACTION ###設定gpu使用量
-session = tf.Session(config = cfg)
-os.environ["CUDA_VISIBLE_DEVICES"] = CUDA_VISIBLE_DEVICES ###設定gpu編號
+# print("set GPU stat...")
+# cfg = tf.ConfigProto()
+# cfg.gpu_options.per_process_gpu_memory_fraction =  GPU_MEMORY_FRACTION ###設定gpu使用量
+# session = tf.Session(config = cfg)
+# os.environ["CUDA_VISIBLE_DEVICES"] = CUDA_VISIBLE_DEVICES ###設定gpu編號
 
 
 # In[6]:
