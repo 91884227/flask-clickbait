@@ -3,18 +3,18 @@
 ###### tags: `README` 
 
 # flask_clickbait.py
-執行以下程式
+execute code
 ```
 python flask_clickbait.py
 ```
-即可在本地端 `http://127.0.0.1:5000/` 執行
-使用方式: e.g. 
+then you can open  `http://127.0.0.1:5000/` to detect clickbait
+usage: 
 
 `http://127.0.0.1:5000/title?title=這是充滿炭14的實驗室`
 
 
 # data_preprocessing.py
-使用方式:
+usage:
 ```python
 from data_preprocessing import encode
 encode("韓國打贏日本")
@@ -22,7 +22,7 @@ encode("韓國打贏日本")
 ```
 
 # model.py
-使用方式:
+usage:
 ```python
 from model import ABS
 ABS("男子陳屍桃園大圳 身體腫脹難辨身分")
