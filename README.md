@@ -2,15 +2,24 @@
 
 ###### tags: `README` 
 
+# Notes
+* The `requirements.txt` file should list all Python libraries that your notebooks depend on, and they will be installed using:
+    ```
+    pip install -r requirements.txt
+    ```
+* The folder [data](https://drive.google.com/drive/folders/15BDjL2IaX3eYdFVzT422VwCb743Hrbi3) should be downloaded to the working directory.
+
+
 # flask_clickbait.py
 execute code
 ```
 python flask_clickbait.py
 ```
 then you can open  `http://127.0.0.1:5000/` to detect clickbait
+
 usage: 
 
-`http://127.0.0.1:5000/title?title=這是充滿炭14的實驗室`
+`http://127.0.0.1:5000/title?title=居家檢疫攏是假？名醫「一張照片打臉」網罵：難怪找不出感染源`
 
 
 # data_preprocessing.py
