@@ -103,7 +103,7 @@ mysqlclient==1.4.6
 nbconvert==5.4.0
 nbformat==4.4.0
 networkx==2.4
-nltk==3.4
+nltk==3.6.3
 notebook==5.7.4
 numpy==1.16.4
 oauthlib==3.1.0
