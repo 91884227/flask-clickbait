@@ -104,7 +104,7 @@ nbconvert==5.4.0
 nbformat==4.4.0
 networkx==2.4
 nltk==3.4
-notebook==5.7.4
+notebook==6.4.10
 numpy==1.16.4
 oauthlib==3.1.0
 opencv-contrib-python==3.4.1.15
