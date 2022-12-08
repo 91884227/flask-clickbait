@@ -14,7 +14,7 @@ cachetools==3.1.1
 catalogue==1.0.0
 catboost==0.14.0
 celery==4.3.0
-certifi==2019.3.9
+certifi==2022.12.7
 chardet==3.0.4
 cheroot==8.2.1
 CherryPy==18.5.0
